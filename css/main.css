@@ -1,0 +1,38 @@
+#background {
+    background-color: rgb(80, 80, 196);
+}
+
+/* Надо дать базовые настройки объекту. */
+.linkM {
+    color: rgba(231, 255, 16, 0.911);
+    text-decoration: none;
+}
+
+.linkM:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Свойство visited Говорит что будет с сыылкой после того как на нее перейдут. */
+.linkM:visited {
+    color: gray;
+    text-decoration: overline;
+}
+
+
+.main {
+    color: rgb(0, 0, 0);
+}
+
+/* hover говорит что будет с текстом если на него навести курсором. */
+.main:hover {
+    color: rgb(0, 255, 76);
+    cursor: pointer;
+}
+
+/* Псевдокласс active говорит что будет делать с текстом если на него нажать. */
+.main:active {
+    color: black;
+    text-decoration: line-through;
+    cursor: progress;
+}
